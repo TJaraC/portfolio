@@ -6,7 +6,7 @@ import { useEffect,useState } from "react";
 
 export default function Proyectos() {
   const [estaModalAbierto, setEstaModalAbierto] = useState(false);
-  const [modalTipo, setModalTipo] = useState();
+  const [modalTipo, setModalTipo] = useState<number>();
 
   // useEffect(() => {
   //   window.scrollTo(0, 0);
