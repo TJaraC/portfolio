@@ -1,7 +1,27 @@
+import { Dispatch, SetStateAction } from "react";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Modal({ data, modalTipo, setEstaModalAbierto }) {
+type Image = {
+  imgSrc: string;
+}
+
+type Project = {
+  titulo: string;
+  descripcion: string;
+  img: {
+    principal: Array<Image>;
+    secundaria: Array<Array<Image>>
+  }
+}
+
+type Props = {
+  data: Project;
+  modalTipo: number;
+  setEstaModalAbierto: Dispatch<SetStateAction<boolean>>
+}
+
+function Modal({ data, modalTipo, setEstaModalAbierto }: Props) {
   return (
     <div className="modal">
       <div

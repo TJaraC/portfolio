@@ -37,7 +37,7 @@ export default function Proyectos() {
         ))}
       </div>
 
-      {estaModalAbierto && (
+      {estaModalAbierto && modalTipo && (
           <Modal
             data={data.proyectos[modalTipo].modal}
             modalTipo={modalTipo}
