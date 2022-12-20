@@ -2,9 +2,9 @@
 
 .aboutme-container {
   /* Elemento que compone principalmente esta página. Distribuido en el centro de la página mediante flexbox */
-  padding-top: 10%;
+  padding-top: 20vh;
   width: 100%;
-  height: 50vh;
+  // height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
