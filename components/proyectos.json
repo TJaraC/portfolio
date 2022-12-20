@@ -1,0 +1,440 @@
+{
+  "proyectos": [
+    {
+      "imgSrc": "/img/proyectos/Ilustraciones/Nathy_Peluso.png",
+      "alt": "nathy.png",
+      "texto": "Nathy Peluso",
+      "modal": {
+        "titulo": "Nathy Peluso",
+        "descripcion": "Ilustración de la cantante Nathy Peluso.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Ilustraciones/Nathy_Peluso.png"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Branding_HOOKOUT/Hookout1.jpg",
+      "alt": "hookout.jpg",
+      "texto": "Hookout",
+      "modal": {
+        "titulo": "Hookout",
+        "descripcion": "Branding de una marca deportiva destinada a los deportes de lucha.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Branding_HOOKOUT/Hookout1.jpg"
+            }
+          ],
+          "secundaria": [
+            [
+              {
+                "imgSrc": "/img/proyectos/Branding_HOOKOUT/Hookout2.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Branding_HOOKOUT/Hookout3.jpg"
+              }
+            ],
+            [
+              {
+                "imgSrc": "/img/proyectos/Branding_HOOKOUT/Hookout4.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Branding_HOOKOUT/Hookout5.jpg"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Tipografía.jpg",
+      "alt": "tipo.jpg",
+      "texto": "Miehle Extra Condensed Digitalizada",
+      "modal": {
+        "titulo": "Miehle Extra Condensed",
+        "descripcion": "Rediseño y adaptación digital de la fuente Miehle Extra Condensed.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Tipografía.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/R3st/Rest1.jpg",
+      "alt": "rest.jpg",
+      "texto": "R3st.",
+      "modal": {
+        "titulo": "R3st.",
+        "descripcion": "Branding de una marca corporativa de gorras (ficticia), que tenía como objetivo comercializarse en La Tienda de las Gorras (Malasaña, Madrid).",
+        "img": {
+          "principal": [],
+          "secundaria": [
+            [
+              {
+                "imgSrc": "/img/proyectos/R3st/Rest1.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/R3st/Latigo.jpg"
+              }
+            ],
+            [
+              {
+                "imgSrc": "/img/proyectos/R3st/Rest3.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/R3st/Rest2.jpg"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Catálogo_Xiaomi/Catalogo2.jpg",
+      "alt": "xiaomictl.jpg",
+      "texto": "Catálogo de Productos Xiaomi",
+      "modal": {
+        "titulo": "Catálogo de Productos de Xiaomi",
+        "descripcion": "Diseño y maquetación del catálogo de productos de Xiaomi (ficticio) de la temporada 2020.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Catálogo_Xiaomi/Catalogo2.jpg"
+            }
+          ],
+          "secundaria": [
+            [
+              {
+                "imgSrc": "/img/proyectos/Catálogo_Xiaomi/Catalogo1.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Catálogo_Xiaomi/Catalogo3.jpg"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Disco_ChebRuben/1.jpg",
+      "alt": "disco_cheb.jpg",
+      "texto": "Wannabe Suicida",
+      "modal": {
+        "titulo": "Wannabe Suicida",
+        "descripcion": "Diseño del disco Wannabe Suicida (ficticio), para el rapero Español Cheb Rubën.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Disco_ChebRuben/1.jpg"
+            }
+          ],
+          "secundaria": [
+            [
+              {
+                "imgSrc": "/img/proyectos/Disco_ChebRuben/2.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Disco_ChebRuben/3.jpg"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Campaña_Xiaomi/Campaña_Xiao1.jpg",
+      "alt": "camp_xiaomi.jpg",
+      "texto": "Innovación para todos",
+      "modal": {
+        "titulo": "Innovación para todos",
+        "descripcion": "Diseño de los carteles para la campaña publicitaria (ficticia) de Xiaomi en motivo de su aniversario.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Campaña_Xiaomi/Campaña_Xiao1.jpg"
+            },
+            {
+              "imgSrc": "/img/proyectos/Campaña_Xiaomi/Campaña_Xiao2.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Ilustraciones/Pedro_Ladroga.jpg",
+      "alt": "pedroldrg.jpg",
+      "texto": "Pedro LaDroga",
+      "modal": {
+        "titulo": "Pedro LaDroga",
+        "descripcion": "Ilustración del cantante sevillano Pedro LaDroga.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Ilustraciones/Pedro_Ladroga.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Campaña_Bershka/Bershka5.jpg",
+      "alt": "bershka.jpg",
+      "texto": "Campaña Invierno/Primavera Bershka 2020",
+      "modal": {
+        "titulo": "Campaña de Invierno/Primavera Bershka 2020",
+        "descripcion": "Campaña publicitaria (ficticia) de Bershka para la nueva temporada Invierno/Primavera de 2020. Parte de la realización de la campaña se llevó a cabo en un estudio fotográfico, buscando captar con la cámara lo que desde un principio se tenía en mente transmitir al espectador.",
+        "img": {
+          "principal": [],
+          "secundaria": [
+            [
+              {
+                "imgSrc": "/img/proyectos/Campaña_Bershka/Bershka1.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Campaña_Bershka/Bershka2.jpg"
+              }
+            ],
+            [
+              {
+                "imgSrc": "/img/proyectos/Campaña_Bershka/Bershka5.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Campaña_Bershka/Bershka6.jpg"
+              }
+            ],
+            [
+              {
+                "imgSrc": "/img/proyectos/Campaña_Bershka/Bershka3.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Campaña_Bershka/Bershka4.jpg"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Ilustraciones/RelsB.jpg",
+      "alt": "relsb.jpg",
+      "texto": "Rels B",
+      "modal": {
+        "titulo": "Rels B",
+        "descripcion": "Ilustración del cantante Rels B.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Ilustraciones/RelsB.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/LieToMe_Cartel/LieToMe.jpg",
+      "alt": "lietome.jpg",
+      "texto": "Remake portada Lie To Me",
+      "modal": {
+        "titulo": "Lie To Me",
+        "descripcion": "Diseño (No oficial) de la portada de la serie de televisión 'Lie to me'. El diseño de esta portada está inspirado en uno de los diseños originales con la diferencia de que está rehecho de nuevo, empleando a un actor nuevo para la fotografía.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/LieToMe_Cartel/LieToMe.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Portada_Vogue/Revista.jpg",
+      "alt": "vogue1.jpg",
+      "texto": "Portada Vogue",
+      "modal": {
+        "titulo": "Portada Vogue",
+        "descripcion": "Fotografía, diseño y maquetación (ficticia) de portada de la revista Vogue.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Portada_Vogue/Revista.jpg"
+            }
+          ],
+          "secundaria": [
+            [
+              {
+                "imgSrc": "/img/proyectos/Portada_Vogue/Revista2.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Portada_Vogue/voguefoto.jpg"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Concierto_ChebRuben.jpg",
+      "alt": "concierto_chebru.jpg",
+      "texto": "Cartel Concierto Cheb Rubën 2020",
+      "modal": {
+        "titulo": "Cartel Concierto Cheb Rubën 2019",
+        "descripcion": "Diseño del cartel (ficticio) para el concierto y presentación del nuevo disco 'Wannabe Suicida' del cantante y artista Cheb Rubën.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Concierto_ChebRuben.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Lettering/Lettering.jpg",
+      "alt": "lettering.jpg",
+      "texto": "Youre Fucking Right",
+      "modal": {
+        "titulo": "Youre Fucking Right",
+        "descripcion": "Lettering de carácter personal.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Lettering/Lettering.jpg"
+            },
+            {
+              "imgSrc": "/img/proyectos/Lettering/Lettering2.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Ilustraciones/Dance.jpg",
+      "alt": "dance.jpg",
+      "texto": "Dance",
+      "modal": {
+        "titulo": "Dance",
+        "descripcion": "Encargo de ilustración con la temática de baile callejero.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Ilustraciones/Dance.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/LaStrada_Portada.jpg",
+      "alt": "lastrada.jpg",
+      "texto": "La Strada",
+      "modal": {
+        "titulo": "La Strada",
+        "descripcion": "Diseño de la portada de la mixtape 'La Strada' del cantante y rapero sevillano Neko.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/LaStrada_Portada.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Ilustraciones/Dellafuente.png",
+      "alt": "dellafuente.jpg",
+      "texto": "Dellafuente",
+      "modal": {
+        "titulo": "Dellafuente",
+        "descripcion": "Ilustración del cantante Dellafuente.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Ilustraciones/Dellafuente.png"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Campaña_Publicidad_AmazonVideo/PrimeVideo2.jpg",
+      "alt": "amazon.jpg",
+      "texto": "Campaña Prime Video",
+      "modal": {
+        "titulo": "Campaña publicitaria Amazon Prime Video.",
+        "descripcion": "Diseño de cartelería (ficticio) para una campaña de publicidad de Amazon Prime Video.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Campaña_Publicidad_AmazonVideo/PrimeVideo1.jpg"
+            },
+            {
+              "imgSrc": "/img/proyectos/Campaña_Publicidad_AmazonVideo/PrimeVideo2.jpg"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Viveros_Guzman/Viveros.jpg",
+      "alt": "viveros.jpg",
+      "texto": "Sembrando sueños...",
+      "modal": {
+        "titulo": "Sembrando sueños...",
+        "descripcion": "Diseño de Flyers para la empresa Viveros Guzmán.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Viveros_Guzman/Viveros.jpg"
+            }
+          ],
+          "secundaria": [
+            [
+              {
+                "imgSrc": "/img/proyectos/Viveros_Guzman/Viveros Guzman1.jpg"
+              },
+              {
+                "imgSrc": "/img/proyectos/Viveros_Guzman/Viveros Guzman2.jpg"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "imgSrc": "/img/proyectos/Ilustraciones/PoloG.png",
+      "alt": "polo.jpg",
+      "texto": "Polo G",
+      "modal": {
+        "titulo": "Polo G",
+        "descripcion": "Ilustración del cantante Estado Unidense Polo G.",
+        "img": {
+          "principal": [
+            {
+              "imgSrc": "/img/proyectos/Ilustraciones/PoloG.png"
+            }
+          ],
+          "secundaria": []
+        }
+      }
+    }
+  ]
+}

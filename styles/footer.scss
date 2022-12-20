@@ -1,0 +1,97 @@
+footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 11em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  // position: absolute;
+
+  .follow-me {
+    padding-inline-start: 0;
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // gap: 3em;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    @media (max-width: 820px) {
+      .follow-me {
+        font-size: 2em;
+      }
+    }
+
+    li {
+      a {
+        text-decoration: none;
+        color: rgb(184, 184, 184);
+        font-family: "MonumentExtended-Regular";
+        transition: linear 0.5s;
+        font-size: 1.4em;
+        display: block;
+        animation: text-shadow-drop-center-back 0.6s both;
+        &:hover {
+          color: yellow;
+          animation: text-shadow-drop-center 0.6s both;
+        }
+      }
+    }
+  }
+
+  .site-info {
+    /* Información sobre el sitio */
+    width: 100%;
+    // padding-top: 10em;
+    margin: auto;
+    padding-inline-start: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    // gap: 2em;
+    justify-content: space-around;
+
+    margin: 0 auto;
+    ul {
+      @media (max-width: 356px) {
+        .site-info > ul {
+          width: 60%;
+        }
+      }
+    }
+
+    li {
+      font-family: "UniviaPro-Regular";
+      color: rgba(184, 184, 184, 0.407);
+    }
+  }
+}
+
+@keyframes text-shadow-drop-center {
+  /* Animación que se ejecuta cuando haces :hover sobre un elemento, añadiendole una sombra */
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.756);
+  }
+}
+
+@keyframes text-shadow-drop-center-back {
+  /* Animación que se ejecuta cuando quitas :hover sobre un elemento, añadiendole una sombra */
+  from {
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.756);
+  }
+
+  to {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+}

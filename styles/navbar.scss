@@ -1,0 +1,92 @@
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  font-family: "MonumentExtended-Regular", sans-serif;
+  font-size: 2em;
+  position: fixed;
+  top: 0;
+  z-index: 3000;
+
+  .leftside-navbar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 3%;
+
+    #initials {
+      display: block;
+
+      a {
+        color: rgb(184, 184, 184);
+        position: relative;
+        transition: color 0.5s linear;
+        text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.707);
+
+        &:hover {
+          color: yellow;
+        }
+      }
+    }
+  }
+
+  .rightside-navbar {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 8%;
+    padding-right: 3%;
+
+    li {
+      display: block;
+
+      a {
+        display: block;
+        color: rgb(184, 184, 184);
+        position: relative;
+        transition: color 0.5s linear;
+        text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.707);
+      }
+
+      .btn-effect {
+        &:before,
+        &:after {
+          content: "";
+          position: absolute;
+          width: 0%;
+          height: 4px;
+          top: 40%;
+          background: #fff;
+        }
+
+        &:after {
+          right: 2.5px;
+          background: #fff;
+          transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+        }
+
+        &:hover {
+          color: yellow;
+
+          &:before {
+            background: #fff;
+            width: 100%;
+            transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+          }
+
+          &:after {
+            background: transparent;
+            width: 100%;
+            transition: 0s;
+          }
+        }
+      }
+    }
+  }
+}
