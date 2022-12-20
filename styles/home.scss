@@ -211,7 +211,7 @@
           margin-bottom: 16px;
         }
 
-        .adv-container {
+        .mkt-container {
           display: flex;
           width: 100%;
           height: 20em;
@@ -225,8 +225,8 @@
             height: 100%;
           }
 
-          .adv1,
-          .adv2 {
+          .mkt1,
+          .mkt2 {
             width: 50%;
             height: 100%;
 
@@ -249,8 +249,8 @@
             }
           }
 
-          .adv1:hover,
-          .adv2:hover {
+          .mkt1:hover,
+          .mkt2:hover {
             z-index: 1;
 
             a {

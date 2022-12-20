@@ -78,13 +78,13 @@ export default function Index() {
                 </section>
                 <section className="advertising">
                   <h1>_advertising</h1>
-                  <div className="adv-container">
-                    <div className="adv1">
+                  <div className="mkt-container">
+                    <div className="mkt1">
                       <Link href="/work">
                         <img src="/img/Bershka3.jpg" alt="" />
                       </Link>
                     </div>
-                    <div className="adv2">
+                    <div className="mkt2">
                       <Link href="/work">
                         <img src="/img/PrimeVideo2.jpg" alt="" />
                       </Link>
