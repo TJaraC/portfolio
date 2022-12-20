@@ -16,7 +16,7 @@ export default function Contacto() {
       </div>
       <div className="linea2">
         <p>contact me on</p>
-        <a href="#">contact@tjaracas.com</a>
+        <a href="mailto:triciojarac@gmail.com">triciojarac@gmail.com</a>
       </div>
       <div className="linea3">
         <p>to start</p>
