@@ -5,8 +5,7 @@ import Modal from "../../components/Modal";
 import { useEffect,useState } from "react";
 
 export default function Proyectos() {
-  const [estaModalAbierto, setEstaModalAbierto] = useState(false);
-  const [modalTipo, setModalTipo] = useState<number>();
+  const [proyectoSeleccionado, setProyectoSeleccionado] = useState<number>()
 
   // useEffect(() => {
   //   window.scrollTo(0, 0);
@@ -14,14 +13,13 @@ export default function Proyectos() {
 
   return (
     <div className="proyectos">
-      <div className={`proyectos-container ${estaModalAbierto ? "fadeout": ""}`}>
+      <div className={`proyectos-container ${proyectoSeleccionado !== undefined ? "fadeout": ""}`}>
         {data.proyectos.map((proyecto, index) => (
           <div
             className={`img${index + 1} imgonclick`}
             key={index}
             onClick={() => {
-              setEstaModalAbierto(true);
-              setModalTipo(index);
+              setProyectoSeleccionado(index);
               window.scrollTo(0, 0);
             }}
           >
@@ -37,11 +35,11 @@ export default function Proyectos() {
         ))}
       </div>
 
-      {estaModalAbierto && modalTipo && (
+      {proyectoSeleccionado !== undefined && (
           <Modal
-            data={data.proyectos[modalTipo].modal}
-            modalTipo={modalTipo}
-            setEstaModalAbierto={setEstaModalAbierto}
+            data={data.proyectos[proyectoSeleccionado].modal}
+            proyectoSeleccionado={proyectoSeleccionado}
+            setProyectoSeleccionado={setProyectoSeleccionado}
           />
         )}
 

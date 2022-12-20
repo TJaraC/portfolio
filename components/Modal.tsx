@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -17,22 +17,22 @@ type Project = {
 
 type Props = {
   data: Project;
-  modalTipo: number;
-  setEstaModalAbierto: Dispatch<SetStateAction<boolean>>
+  proyectoSeleccionado: number;
+  setProyectoSeleccionado: Dispatch<SetStateAction<number | undefined>>
 }
 
-function Modal({ data, modalTipo, setEstaModalAbierto }: Props) {
+function Modal({ data, proyectoSeleccionado, setProyectoSeleccionado }: Props) {
   return (
     <div className="modal">
       <div
         className="modalbackground"
-        onClick={() => setEstaModalAbierto(false)}
+        onClick={() => setProyectoSeleccionado(undefined)}
       ></div>
-      <div className={`img${modalTipo + 1}modal close modal opacidad2`}>
+      <div className={`img${proyectoSeleccionado + 1}modal close modal opacidad2`}>
         <FontAwesomeIcon
           icon={faChevronLeft}
           className="icono"
-          onClick={() => setEstaModalAbierto(false)}
+          onClick={() => setProyectoSeleccionado(undefined)}
         />
         <h1>{data.titulo}</h1>
         <p>{data.descripcion}</p>
