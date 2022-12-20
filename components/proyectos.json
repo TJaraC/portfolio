@@ -374,7 +374,7 @@
       }
     },
     {
-      "imgSrc": "/img/proyectos/Campaña_Publicidad_AmazonVideo/PrimeVideo2.jpg",
+      "imgSrc": "/img/proyectos/Campaña_AmazonVideo/PrimeVideo2.jpg",
       "alt": "amazon.jpg",
       "texto": "Campaña Prime Video",
       "modal": {
@@ -383,10 +383,10 @@
         "img": {
           "principal": [
             {
-              "imgSrc": "/img/proyectos/Campaña_Publicidad_AmazonVideo/PrimeVideo1.jpg"
+              "imgSrc": "/img/proyectos/Campaña_AmazonVideo/PrimeVideo1.jpg"
             },
             {
-              "imgSrc": "/img/proyectos/Campaña_Publicidad_AmazonVideo/PrimeVideo2.jpg"
+              "imgSrc": "/img/proyectos/Campaña_AmazonVideo/PrimeVideo2.jpg"
             }
           ],
           "secundaria": []
