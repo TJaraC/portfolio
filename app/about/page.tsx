@@ -18,15 +18,16 @@ export default function SobreMi() {
             I'm a{" "}
             <strong>
               Graphic Designer and front-end developer based in Seville, Spain.
-            </strong>{" "}
+            </strong>{" "} 
+            <br />
             Actually I work everyday to improve both as designer and as a
             person.
             <br />
             <br />
-            Right now I'm working as freelance, especialized in{" "}
+            Right now I am working as a graphic designer in a marketing departament, especialized in{" "}
             <strong>adversiting campaigns</strong>, <strong>branding</strong>,{" "}
             <strong>illustrations</strong>, <strong>layout</strong>. I also have
-            knowledge in <strong>HTML5, CSS and JavaScript (React).</strong>
+            knowledge in <strong>HTML5, CSS and JavaScript.</strong>
             <br />
             <br />
             If you're interested in working together
