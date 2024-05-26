@@ -1,5 +1,3 @@
-"use client";
-
 export default function Contacto() {
   return (
     <div className="contact-me">
