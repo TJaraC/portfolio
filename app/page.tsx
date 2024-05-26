@@ -23,7 +23,7 @@ export default function Index() {
                   <h1 id="nombre">Patricio J.C.</h1>
                   <p id="resumen">
                     Graphic Designer <br />
-                    Front-end Web Developer
+                    UX/UI Designer
                   </p>
                   <p id="sobremi"></p>
                 </div>
