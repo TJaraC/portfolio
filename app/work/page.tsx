@@ -2,14 +2,10 @@
 
 import data from "../../components/proyectos.json";
 import Modal from "../../components/Modal";
-import { useEffect,useState } from "react";
+import { useState } from "react";
 
 export default function Proyectos() {
   const [proyectoSeleccionado, setProyectoSeleccionado] = useState<number>()
-
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
 
   return (
     <div className="proyectos">

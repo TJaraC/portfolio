@@ -1,13 +1,8 @@
 "use client";
 
-import { useEffect } from "react";
 import Link from "next/link";
 
 export default function SobreMi() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
-
   return (
       <div className="aboutme-container">
         <img src="img/imgaboutme.jpg" alt="" id="imgfondo" />

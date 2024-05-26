@@ -1,12 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
-
 export default function Contacto() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
-
   return (
     <div className="contact-me">
       <div className="linea1">
