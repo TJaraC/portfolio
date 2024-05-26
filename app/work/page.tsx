@@ -7,10 +7,6 @@ import { useEffect,useState } from "react";
 export default function Proyectos() {
   const [proyectoSeleccionado, setProyectoSeleccionado] = useState<number>()
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
-
   return (
     <div className="proyectos">
       <div className={`proyectos-container ${proyectoSeleccionado !== undefined ? "fadeout": ""}`}>
