@@ -1,32 +1,7 @@
-"use client";
-
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 
-
-// import Footer from "../components/Footer";
-// import Navbar from "../components/Navbar";
-import Intro from "../components/Intro";
-
-import { useEffect, useState } from "react";
-
 export default function Index() {
-  // const [scrollDownHeight, setScrollDownHeight] = useState(0);
-
-
-  // useEffect(()=> {
-  //   console.log("HERE1", isFirstVisit);
-  //   if(isFirstVisit) {
-  //     console.log("HERE2");
-  //     setIsFirstVisit(false)
-  //   }
-  // }, [])
-
-
-
-
-
   return (
     <div>
       <Head>
@@ -46,7 +21,7 @@ export default function Index() {
                   <h1 id="nombre">Patricio J.C.</h1>
                   <p id="resumen">
                     Graphic Designer <br />
-                    Front-end Web Developer
+                    UX/UI Designer
                   </p>
                   <p id="sobremi"></p>
                 </div>
