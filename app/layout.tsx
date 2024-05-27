@@ -6,9 +6,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Intro from "../components/Intro";
 
-
-
-
 import "../styles/reset.css";
 import "../styles/webfont.scss";
 import "../styles/home.scss";
@@ -18,14 +15,6 @@ import "../styles/navbar.scss";
 import "../styles/work.scss";
 import "../styles/about.scss";
 import "../styles/footer.scss";
-
-
-// import "../styles/mediaqueries/mq_global.scss"
-// import "../styles/mediaqueries/mq_navbar.scss"
-// import "../styles/mediaqueries/mq_footer.scss"
-// import "../styles/mediaqueries/mq_home.scss"
-// import "../styles/mediaqueries/mq_sobremi.scss"
-// import "../styles/mediaqueries/mq_work.scss"
 
 export default function RootLayout({ children }: {
   children: React.ReactNode;
